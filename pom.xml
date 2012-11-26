@@ -16,16 +16,16 @@
     </scm>
 
     <distributionManagement>
-        <downloadUrl>http://maven.davidtrott.com/repository</downloadUrl>
+        <downloadUrl>http://nexus.synegen.com/nexus-webapp-1.9.1</downloadUrl>
         <repository>
-            <id>dtrott-public</id>
-            <name>David Trott's Public Repository</name>
-            <url>file:///repositories/maven.davidtrott.com/release</url>
+            <id>synegen</id>
+            <name>Synegen Release</name>
+            <url>http://nexus.synegen.com/nexus-webapp-1.9.1/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>dtrott-public</id>
-            <name>David Trott's Public Snapshot Repository</name>
-            <url>file:///repositories/maven.davidtrott.com/snapshot</url>
+            <id>synegen</id>
+            <name>Synegen Snapshot Repository</name>
+            <url>http://nexus.synegen.com/nexus-webapp-1.9.1/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
